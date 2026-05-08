@@ -43,7 +43,7 @@ export default function About() {
             viewport={{ once: true }}
             className="text-4xl md:text-5xl font-bold"
           >
-            About <span className="text-gradient">Oscode</span>
+            About <span className="text-gradient">OSCode</span>
           </motion.h2>
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
@@ -110,7 +110,7 @@ export default function About() {
             >
               <div className="absolute w-4 h-4 rounded-full bg-cyan-accent shadow-[0_0_10px_#00F5FF] -left-[9px] md:-right-[9px] md:left-auto top-1 border-2 border-[#0B0F19]"></div>
               <h4 className="text-2xl font-bold text-cyan-accent">2026</h4>
-              <p className="text-lg font-semibold text-white mt-2">Oscode Founded</p>
+              <p className="text-lg font-semibold text-white mt-2">OSCode Founded</p>
               <p className="text-gray-400 mt-2 text-sm">A visionary group of students came together to form BMSCE's most dynamic tech club.</p>
             </motion.div>
 

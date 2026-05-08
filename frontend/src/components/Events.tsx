@@ -150,23 +150,24 @@ export default function Events() {
               {/* Modal Body - Image Grid */}
               <div className="p-6 overflow-y-auto custom-scrollbar">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {/* Placeholder Gallery Images */}
+                  {/* Real Workshop Gallery Images */}
                   {[
-                    "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop",
-                    "https://images.unsplash.com/photo-1515169067868-5387ec356754?w=600&h=400&fit=crop",
-                    "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop",
-                    "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop",
-                    "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop",
-                    "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=400&fit=crop"
-                  ].map((src, i) => (
+                    { src: "/gallery_1.png", caption: "Session in progress — presenter at the front" },
+                    { src: "/gallery_2.jpg", caption: "Packed audience at the Agentforce Workshop" },
+                    { src: "/gallery_3.png", caption: "Students engaged during the workshop" },
+                    { src: "/gallery_4.jpg", caption: "Full house — 100+ attendees at BMSCE" }
+                  ].map(({ src, caption }, i) => (
                     <motion.div 
                       key={i}
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: i * 0.1 }}
-                      className="rounded-xl overflow-hidden h-48 group cursor-pointer"
+                      className="rounded-xl overflow-hidden h-56 group cursor-pointer relative"
                     >
-                      <img src={src} alt={`Gallery ${i}`} className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" />
+                      <img src={src} alt={caption} className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">
+                        <p className="text-white text-xs font-medium">{caption}</p>
+                      </div>
                     </motion.div>
                   ))}
                 </div>

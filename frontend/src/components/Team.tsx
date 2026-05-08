@@ -6,42 +6,50 @@ import { Code, Briefcase } from "lucide-react";
 export default function Team() {
   const teamMembers = [
     {
-      name: "Aarav Sharma",
-      position: "President",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop",
-      skills: ["Leadership", "Full Stack", "System Design"],
+      name: "Anamika Dubey",
+      position: "Leader",
+      image: "/anamika_dubey.png",
+      skills: ["Leadership", "Strategy", "Vision"],
       linkedin: "#",
       github: "#"
     },
     {
-      name: "Priya Patel",
-      position: "Vice President",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&h=500&fit=crop",
-      skills: ["Management", "AI/ML", "Python"],
+      name: "Hithesh",
+      position: "Co Leader",
+      image: "/hithesh.png",
+      skills: ["Co-Leadership", "Coordination", "Team Building"],
       linkedin: "#",
       github: "#"
     },
     {
-      name: "Rohan Kumar",
-      position: "Technical Head",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=500&fit=crop",
-      skills: ["Next.js", "Cloud", "DevOps"],
+      name: "Priyanshi Singh",
+      position: "Marketing Head",
+      image: "/priyanshi_singh.png",
+      skills: ["Marketing", "Branding", "Outreach"],
       linkedin: "#",
       github: "#"
     },
     {
-      name: "Sneha Reddy",
-      position: "Design Head",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&h=500&fit=crop",
-      skills: ["UI/UX", "Figma", "Framer Motion"],
+      name: "Divyansh Duggad",
+      position: "Event Management Head",
+      image: "/divyansh_duggad.png",
+      skills: ["Event Planning", "Logistics", "Execution"],
       linkedin: "#",
       github: "#"
     },
     {
-      name: "Aditya Singh",
-      position: "Secretary",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&h=500&fit=crop",
-      skills: ["Operations", "Backend", "Node.js"],
+      name: "Theeksha R",
+      position: "Sponsorship Head",
+      image: "/theeksha_r.png",
+      skills: ["Sponsorships", "Partnerships", "Networking"],
+      linkedin: "#",
+      github: "#"
+    },
+    {
+      name: "Bhumika S Patil",
+      position: "Community Moderator",
+      image: "/bhumika_s_patil.png",
+      skills: ["Community", "Engagement", "Support"],
       linkedin: "#",
       github: "#"
     }
@@ -70,7 +78,7 @@ export default function Team() {
             transition={{ delay: 0.2 }}
             className="text-gray-400 max-w-2xl mx-auto"
           >
-            The passionate minds driving Oscode forward, dedicated to fostering a culture of innovation and excellence at BMSCE.
+            The passionate minds driving OSCode forward, dedicated to fostering a culture of innovation and excellence at BMSCE.
           </motion.p>
         </div>
 

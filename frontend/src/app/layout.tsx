@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Oscode BMSCE | Coding Community",
-  description: "Oscode is the premier coding community of BMSCE focused on development, hackathons, AI, open source, and innovation.",
+  title: "OSCode BMSCE | Coding Community",
+  description: "OSCode is the premier coding community of BMSCE focused on development, hackathons, AI, open source, and innovation.",
 };
 
 export default function RootLayout({

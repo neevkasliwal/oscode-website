@@ -16,7 +16,7 @@ export default function Hero() {
   }, []);
 
   const terminalLines = [
-    "> initializing Oscode...",
+    "> initializing OSCode...",
     "> loading developers...",
     "> hackathons = enabled",
     "> innovation = active",
@@ -49,7 +49,7 @@ export default function Hero() {
         >
           <div className="space-y-2">
             <h1 className="text-6xl md:text-8xl font-extrabold tracking-tighter text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]">
-              Oscode
+              OSCode
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-accent to-purple-accent">
               Build. Learn. Dominate.

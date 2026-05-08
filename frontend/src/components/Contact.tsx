@@ -127,19 +127,19 @@ export default function Contact() {
             {/* Direct Contacts */}
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="glass p-4 rounded-xl border border-white/5 hover:border-cyan-accent/30 transition-colors group">
-                <p className="text-cyan-accent font-semibold mb-1">President</p>
-                <p className="text-white font-medium">Aarav Sharma</p>
+                <p className="text-cyan-accent font-semibold mb-1">Leader</p>
+                <p className="text-white font-medium">Anamika Dubey</p>
                 <div className="flex items-center gap-2 mt-2 text-gray-400 group-hover:text-white transition-colors">
                   <Phone className="w-4 h-4" />
-                  <span className="text-sm">+91 98765 43210</span>
+                  <span className="text-sm">+91 93801 39024</span>
                 </div>
               </div>
               <div className="glass p-4 rounded-xl border border-white/5 hover:border-purple-accent/30 transition-colors group">
-                <p className="text-purple-accent font-semibold mb-1">Vice President</p>
-                <p className="text-white font-medium">Priya Patel</p>
+                <p className="text-purple-accent font-semibold mb-1">Co Leader</p>
+                <p className="text-white font-medium">Hithesh</p>
                 <div className="flex items-center gap-2 mt-2 text-gray-400 group-hover:text-white transition-colors">
                   <Phone className="w-4 h-4" />
-                  <span className="text-sm">+91 98765 43211</span>
+                  <span className="text-sm">+91 63607 38615</span>
                 </div>
               </div>
             </div>

@@ -69,10 +69,10 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} Oscode BMSCE. All rights reserved.
+            &copy; {new Date().getFullYear()} OSCode BMSCE. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm flex items-center gap-2">
-            Built with <span className="text-purple-accent animate-pulse">passion</span> by Oscode
+            Built with <span className="text-purple-accent animate-pulse">passion</span> by OSCode
           </p>
         </div>
       </div>

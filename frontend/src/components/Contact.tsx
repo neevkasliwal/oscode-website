@@ -204,7 +204,7 @@ export default function Contact() {
                   {status === "loading" ? (
                     <span className="animate-pulse">Sending...</span>
                   ) : status === "success" ? (
-                    <span>Message Sent!</span>
+                    <span>Message Submitted!</span>
                   ) : status === "error" ? (
                     <span>Error. Try Again.</span>
                   ) : (
